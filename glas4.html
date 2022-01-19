@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><h1>
+    <style>
+        h2 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1 {
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%, -50%);
+        }
+      </style>
+    <link rel="stylesheet" href="glas.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>축하합니다</title>
+    <h1>※경축※</h1>
+    <h2>축하합니다! 게임 하러가야되서 더 안만듬 빠이요~.</h2>
+    <input type=button value=개발중 onclick=a();>
+    <script>
+        var pp = 0;
+        function a(){
+            pp = pp + 1
+            if(pp==1){
+                alert('개발중')
+            }
+            if(pp==10){
+                alert('아니;; 개발중인데 왜 자꾸누르쇼')
+            }
+            if(pp==20){
+                alert('아직 안만들었다구요;;')
+            }
+            if(pp==40){
+                if(confirm('후;; 퀴즈를 하고 싶은겁니까?')==true) {
+                    alert('okokok')
+                    location.href='glas5.html'
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+</h1>
+<link rel="stylesheet" href="glas.css">
+</body>
+</html>

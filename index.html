@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+input[type=text]{
+	width:100%;
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin: 8px 0;
+	outline: none;
+	padding:8px;
+	box-sizing: border-box;
+	transition:.3s;
+}
+
+input[type=text]:focus{
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgetBlue;
+    }
+
+    input[type=button]{
+        width:100%;
+        border:2px solid #aaa;
+        border-radius:4px;
+        margin: 8px 0;
+        outline: none;
+        padding:8px;
+        box-sizing: border-box;
+        transition:.3s;
+    }
+    
+    input[type=button]:focus{
+        border-color:dodgerBlue;
+        box-shadow:0 0 8px 0 dodgetBlue;
+}
+h2 {
+	float : left;
+}
+	</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>서울신상도초등학교</title>
+	<h1 onclick=p2();>서울신상도초등학교</h1></h1><h2 onclick=ppvp(); id=어쩔티빙>비</h2><h2>공식 퀴즈</h2>
+	<input type=button value=시작하기 onclick=p1();>
+	<script>
+		var a = 0, aa = 0;
+function ppvp(){
+	document.getElementById("어쩔티빙").style.visibility = "hidden";
+	aa = 1;
+}
+		function p1(){
+			if(confirm("시작하려면 1000000$가 필요합니다 시작하시겠습니까?") == true ){
+				if(a == 1) {
+					alert('10000000$를 이체했습니다')
+					location.href='glas2.html'
+				}else{
+					alert('잔액이 부족합니다')
+				}
+			}else{
+				alert('그러면 가세요')
+			}
+		}
+		function p2(){
+			if(confirm("서울신상도초등학교에 전화를 걸겠습니까?") == true ){
+				alert('안녕하세요')
+
+				alert('무슨 이유로 전화거셨나요?')
+				if(aa == 1) {
+					alert('나 : 신상도초등학교 퀴즈 개발자인데 개발비좀 주세요(뻔뻔하게 사기치기)')
+					alert('아 네(뭐지 개발비 주지않았었나)')
+					alert('10000000$가 임금됬습니다')
+					a = 1;
+				}else{
+					alert('나 : 신상도초등학교 퀴즈 개발자인데 개발비좀 주세요')
+					alert('예? 퀴즈같은거 한적없는데요;;')
+					alert('끊을게요')
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
